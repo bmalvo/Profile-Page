@@ -1,5 +1,8 @@
 body {
-    margin: 0 auto;
+    margin: 0 0;
+    font-family: Helvetica, sans-serif;
+    color: azure;
+    
 }
 
 .image {
@@ -8,17 +11,46 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    margin-left: 3vw;
 }
 
 .img1 {
-    background-image: url(./pics/with_cat.jpg);
+    background-image: url(./pics/oskar-yildiz-gy08FXeM2L4-unsplash.jpg);
 }
 
 .img2 {
-    background-color: rgb(38, 37, 37);
-    height: 20vh;
+    background-image: url(./pics/david-pisnoy-46juD4zY1XA-unsplash.jpg);
 }
 
 .img3 {
-    background-image: url(./pics/cat_brydzia.jpg);
+    background-image: url(./pics/rubaitul-azad-ZIPFteu-R8k-unsplash.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+footer {
+    background-color: #2a2a2a;
+    height: 6vh;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-left: 3vw;
+}
+
+.left-bar {
+    height: 100%;
+    width: 3vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2a2a2a;
+    overflow-x: hidden;
+    padding-top: 20px;
+
 }
