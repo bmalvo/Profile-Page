@@ -65,3 +65,31 @@ p {
     overflow-x: hidden;
     padding-top: 20px;
 }
+
+@media (max-width: 800px) {
+    .left-bar {
+        width: 10vw;
+    }
+}
+
+.icon {
+    height: 2rem;
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.github {
+    left: 10%;
+    top: 30%;
+}
+
+.linked {
+    left: 10%;
+    top: 36%;
+}
+
+.icon:hover {
+    color: #111;
+    background: greenyellow;
+    box-shadow: 0 0 35px rgb(99, 255, 67);
+}
