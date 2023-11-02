@@ -25,12 +25,28 @@ body {
     min-height: 1rem;
 }
 
+ul {
+    margin: 0 0;
+    padding-top: 20%;
+}
+
+li {
+    background-color: rgb(155, 155, 155);
+    border-radius: 15px;
+    padding-right: 10px;
+    width: fit-content;
+    list-style-type: none;
+    min-height: 1rem;
+}
+
 .img1 {
     background-image: url(./pics/messy-desk.jpg);
+    border-bottom: 12px solid #2a2a2a;
 }
 
 .img2 {
     background-image: url(./pics/page-from-future.jpg);
+    border-bottom: 12px solid #2a2a2a;
 }
 
 .img3 {
@@ -39,7 +55,11 @@ body {
 
 a {
     text-decoration: none;
-    color: azure;
+    color: #050709;
+}
+
+li:hover, li:active, li:focus {
+    transform: scale(1.2);
 }
 
 footer {
