@@ -1,7 +1,7 @@
 body {
     margin: 0 0;
     font-family: Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #050709;
     
 }
@@ -28,6 +28,7 @@ body {
 .about-me {
     position: relative;
     top: 10%;
+    left: 10%;
     background-color: rgb(155, 155, 155);
     border-radius: 15px;
     padding: 10px;
@@ -36,7 +37,9 @@ body {
 
 ul {
     margin: 0 0;
-    padding-top: 10%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 10%;
 }
 
 li {
@@ -80,31 +83,26 @@ footer {
 
 p {
     margin-top: 0;
-    margin-left: 3vw;
+    margin-left: 9vw;
 }
 
 .left-bar {
     height: 100%;
-    width: 3vw;
+    width: 12vw;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #2a2a2a;
+    /* background-color: #2a2a2a; */
+    background-color: #333333;
     overflow-x: hidden;
-    padding-top: 20px;
-}
-
-@media (max-width: 800px) {
-    .left-bar {
-        width: 10vw;
-    }
 }
 
 .icon {
-    height: 2rem;
+    height: 2em;
     background-color: aliceblue;
     position: absolute;
+    margin: 1px 1px;
 }
 
 .github {
@@ -121,4 +119,16 @@ p {
     color: #111;
     background: greenyellow;
     box-shadow: 0 0 35px rgb(99, 255, 67);
+}
+/* 
+@media (max-width: 800px) {
+    .left-bar {
+        width: 10vw;
+    }
+} */
+
+@media (max-height: 505px) {
+    .linked {
+        top: 40%;
+    }
 }
