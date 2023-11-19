@@ -118,6 +118,21 @@ p {
     top: 36%;
 }
 
+.html {
+    left: 10%;
+    top: 42%;
+}
+
+.python {
+    left: 10%;
+    top: 48%;
+}
+
+.home {
+    left: 10%;
+    top: 54%;
+}
+
 .icon:hover {
     color: #111;
     background: greenyellow;
