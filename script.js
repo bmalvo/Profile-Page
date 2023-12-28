@@ -15,3 +15,15 @@ function typeWriter() {
 document.addEventListener("DOMContentLoaded", function() {
   typeWriter();
 });
+
+document.querySelector('.html').addEventListener('click', () => {
+    document.querySelector('#img2').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector('.python').addEventListener('click', () => {
+    document.querySelector('#img3').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector('.home').addEventListener('click', () => {
+    document.querySelector('.img1').scrollIntoView({ behavior: 'smooth' });
+});
