@@ -51,7 +51,7 @@ li {
 }
 
 .img1 {
-    background-image: url(./pics/messy-desk.jpg);
+    background-image: url(./pics/messy-desk.jpg) ;
     border-bottom: 12px solid #2a2a2a;
 }
 
