@@ -144,32 +144,32 @@ p {
     height: 2em;
     background-color: aliceblue;
     position: absolute;
-    margin: 1px 1px;
-}
-
-.github {
-    left: 10%;
-    top: 30%;
-}
-
-.linked {
-    left: 10%;
-    top: 36%;
-}
-
-.html {
-    left: 10%;
-    top: 42%;
-}
-
-.python {
-    left: 10%;
-    top: 48%;
+    border-radius: 5px;
 }
 
 .home {
     left: 10%;
+    top: 30%;
+}
+
+.html {
+    left: 10%;
+    top: 38%;
+}
+
+.python {
+    left: 10%;
+    top: 46%;
+}
+
+.github {
+    left: 10%;
     top: 54%;
+}
+
+.linked {
+    left: 10%;
+    top: 62%;
 }
 
 .icon:hover {
